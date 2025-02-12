@@ -1,9 +1,11 @@
 import React from 'react';
 
-function Button () {
+function Button ({margin}) {
+    console.log(margin);
+    
     return (
        <>
-       <button className='bg-[#FFD55A] w-[163px] h-[40px] rounded-[8px] font-semibold cursor-pointer text-[#222222] transition duration-200 hover:bg-[#222222] hover:text-[#FFD55A] '>
+       <button className={ `bg-[#FFD55A] w-[163px] h-[40px] rounded-[8px] font-semibold cursor-pointer text-[#222222] transition duration-200 hover:bg-[#222222] hover:text-[#FFD55A] ${margin} `}>
         Get the template
         </button>
        </>
