@@ -1,11 +1,13 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
+import Main1 from '../components/Main1';
 
 function Home ()
 {
     return (
         <div id='body'>
             <Navbar/>
+            <Main1/>
         </div>
     )
 }
