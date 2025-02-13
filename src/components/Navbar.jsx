@@ -1,9 +1,10 @@
 import React from 'react';
 import Button from './Button';
 
+
 const Navbar = () => {
     return (
-      <div className=" border-1 border-b border-[#F3F3F3] ">
+      <div className=" border-1 border-b border-[#F3F3F3]  pl-8 pr-8">
         <nav className='flex justify-between m-4 font-title'>
             <div className="flex items-center ">
                 <h1 className='text-[#222222] font-semibold'>NutriPlan</h1>

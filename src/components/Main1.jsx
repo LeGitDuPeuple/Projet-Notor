@@ -1,5 +1,10 @@
 import React from 'react';
 import Button from './Button';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import  grandTablette from "../assets/img/imageGrandeTablette.png"
+
+
 
 function Main1() {
     return (
@@ -13,10 +18,14 @@ function Main1() {
 '>Our meal planner template helps you to manage your shopping list  and stay in complete control of your diet.</h3>
             <div className='flex justify-between'>
                 <Button margin='mr-3'/>
-                <button className='ml-3'>View Featurs</button>
+                <button className='ml-3'>View Featurses <FontAwesomeIcon icon={faArrowRight} className="ml-2" />
+                </button>
             </div>
             </div>
-            <div className=''></div>
+            <div className=''>
+
+                <img src={grandTablette} alt="image" />
+            </div>
         </div>
 
     );
