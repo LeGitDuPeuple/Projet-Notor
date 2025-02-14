@@ -4,6 +4,11 @@ import img1 from "../assets/img/ImagePetiteTablette2.png"
 import img2 from "../assets/img/download.png"
 
 function Main2() {
+
+    const title1 = "Effortless Planning";
+    const title2 = "Shopping List"
+    const p1 = "Streamline your meal planning process with our Notion template, designed to be intuitive and user-friendly. With its drag-and-drop functionality, you can easily organise your meals for the week."
+    const p2 = "Say goodbye to forgetting ingredients with our Notion template's automatic grocery list generation. Simply select your desired recipes, and our template will generate a comprehensive.."
   return (
     <div
       id="main2"
@@ -22,8 +27,8 @@ function Main2() {
         </p>
 
         <div className=" flex w-[950px] mt-8">
-            <ComposantMain2 img={img1}/>
-            <ComposantMain2 img={img2} />
+            <ComposantMain2 img={img1} title={title1} para={p1}/>
+            <ComposantMain2 img={img2} title={title2} para={p2}/>
 
         </div>
       </div>

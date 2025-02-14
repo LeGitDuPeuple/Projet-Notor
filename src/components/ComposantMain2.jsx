@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function ComposantMain2({img}) {
+function ComposantMain2({img, title, para}) {
     return (
         <div className='m-2'>
             {/* Conteneur principal */}
@@ -11,11 +11,11 @@ function ComposantMain2({img}) {
                     <img src={img} alt="immage 1" className='w-[350px] h-[250px]' />
                 </div>
                 <div>
-                    <h2 className='m-3 font-extrabold text-2xl  '>Effortless Planning</h2>
+                    <h2 className='m-3 font-extrabold text-2xl  '>{title}</h2>
                 </div>
                 <div>
                     <p className='m-3'>
-                        Streamline your meal planning process with our Notion template, designed to be intuitive and user-friendly. With its drag-and-drop functionality, you can easily organise your meals for the week.
+                       {para}
                     </p>
                 </div>
             </div>
