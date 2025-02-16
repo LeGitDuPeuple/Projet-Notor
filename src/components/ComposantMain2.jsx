@@ -4,7 +4,6 @@ import React from 'react';
 function ComposantMain2({img, title, para}) {
     return (
         <div className='m-2'>
-            {/* Conteneur principal */}
             <div className='bg-[#F6F5F4] p-2 rounded-2xl ml-4 mr-4'>
                 <div className='m-2 flex justify-center'>
                     {/* Centrer l'image dans son conteneur */}
