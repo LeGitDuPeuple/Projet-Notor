@@ -4,7 +4,7 @@ import React from 'react';
 function ComposantMain2({img, title, para}) {
     return (
         <div className='m-2'>
-            <div className='bg-[#F6F5F4] p-2 rounded-2xl ml-4 mr-4'>
+            <div className='bg-[#F6F5F4] p-2 rounded-xl ml-4 mr-4'>
                 <div className='m-2 flex justify-center'>
                     {/* Centrer l'image dans son conteneur */}
                     <img src={img} alt="immage 1" className='w-[350px] h-[250px]' />

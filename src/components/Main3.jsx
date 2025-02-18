@@ -1,7 +1,10 @@
 import React from "react";
 import ComposantMain3 from "./ComposantMain3";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTableCellsLarge } from '@fortawesome/free-solid-svg-icons';
 
 function Main3() {
+    const text1 = "Tailor your meal planning to your dietary needs."
   return (
     <div
       id="main3"
@@ -21,9 +24,10 @@ function Main3() {
           <span className="inline-block">nutrition journey</span>
         </p>
       </div>
-      <div className="flex bg-[#FF0000] w-[880px]">
-        <div className="">
-            <ComposantMain3/>
+      <div className="flex bg-[#FF0000] w-[930px] m-4">
+        <div className="grid grid-cols-6 gap-4 ">
+            <ComposantMain3 flex="col-span-2 col-start-1" icon={ <FontAwesomeIcon icon={faTableCellsLarge} className="icon-style" text={text1}/>}/>
+            <ComposantMain3 flex="col-span-4 col-start-3"/>
 
         </div>
         <div>
