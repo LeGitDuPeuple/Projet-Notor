@@ -29,14 +29,14 @@ function Main3() {
           <span className="inline-block">nutrition journey</span>
         </p>
       </div>
-      <div className="flex flex-col bg-[#FF0000] w-[930px] m-4">
+      <div className="flex flex-col  w-[930px] m-4">
         <div className="grid grid-cols-6 gap-4 ">
             <ComposantMain3 flex="col-span-2 col-start-1" titre="Customisable Layout" icon={ <FontAwesomeIcon icon={faTableCellsLarge} className="icon-style" />} text={text1}/>
             <ComposantMain3 flex="col-span-4 col-start-3" titre="Nutrition Tracking" icon={ <FontAwesomeIcon icon={faCalculator} className="icon-style"/>} text={text2}/>
 
         </div>
         <div className="grid grid-cols-6 gap-4">
-           <ComposantMain3 flex="col-span-4 col-start-1" titre="Recipe Integration" icon={ <FontAwesomeIcon icon={faCarrot} className="icon-style"/>} text={text2}/>
+           <ComposantMain3 flex="col-span-4 col-start-1" titre="Recipe Integration" icon={ <FontAwesomeIcon icon={faCarrot} className="icon-style"/>} text={text3}/>
            <Composant2Main3 flex="col-span-2 col-start-5"/>
             
         </div>
