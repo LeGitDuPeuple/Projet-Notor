@@ -1,5 +1,7 @@
 import React from "react"; 
 import { Carousel } from "@material-tailwind/react";
+import CardAvis from "./CardAvis";
+
 
 function Main5() {
     return (
@@ -9,40 +11,17 @@ function Main5() {
         <h3 className="text-2xl font-extrabold m-">This is what our sutomers have to say <span>about this template</span></h3>
         </div>
         <div className="">
-        <div className="overflow-hidden w-[500px] relative">
+        <div className="overflow-hidden w-[500px] relative mt-[60px] mb-[150px]">
+    
       <div className="flex w-max animate-marquee">
         {/* Images en boucle */}
-        <img
-          src="https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
-          alt="image 1"
-          className="w-[500px] h-auto"
-        />
-        <img
-          src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
-          alt="image 2"
-          className="w-[500px] h-auto"
-        />
-        <img
-          src="https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
-          alt="image 3"
-          className="w-[500px] h-auto"
-        />
+        <CardAvis nom="Sofiane"/>
+        <CardAvis nom="Cassie"/>
+        <CardAvis nom="Bebe"/>
         {/* Duplication pour continuité */}
-        <img
-          src="https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
-          alt="image 1"
-          className="w-[500px] h-auto"
-        />
-        <img
-          src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
-          alt="image 2"
-          className="w-[500px] h-auto"
-        />
-        <img
-          src="https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
-          alt="image 3"
-          className="w-[500px] h-auto"
-        />
+        <CardAvis nom="Sofiane"/>
+        <CardAvis nom="Cassie"/>
+        <CardAvis nom="Bebe"/>
       </div>
     </div>
   

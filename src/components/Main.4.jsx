@@ -2,7 +2,7 @@ import React from "react";
 
 function Main4() {
     return (
-        <div className="flex flex-col justify-center items-center mt-14 mb-14">
+        <div className="flex flex-col justify-center items-center mt-[150px] mb-[150px]">
             <div className="w-[500px] text-center">
                 <h2 className="text-3xl font-extrabold m-2">
                     "By failing to prepare, you are 
