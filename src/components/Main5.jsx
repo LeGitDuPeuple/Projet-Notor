@@ -8,7 +8,7 @@ function Main5() {
         <div className="flex flex-col justify-center items-center">
             <div className="w-[500px] text-center">
         <h4 className="uppercase text-[#4E4E4E] ">Testimonials</h4>
-        <h3 className="text-2xl font-extrabold m-">This is what our sutomers have to say <span>about this template</span></h3>
+        <h3 className="text-2xl font-extrabold ">This is what our sutomers have to say <span>about this template</span></h3>
         </div>
         <div className="">
         <div className="overflow-hidden w-[500px] relative mt-[60px] mb-[150px]">
