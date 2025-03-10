@@ -7,6 +7,8 @@ import Main4 from '../components/Main.4';
 import Main5 from '../components/Main5';
 import Main6 from '../components/Main6';
 import Main7 from '../components/Main7';
+import Main8 from '../components/Main8';
+import Footer from '../components/Footer';
 
 function Home ()
 {
@@ -20,6 +22,8 @@ function Home ()
             <Main5/>
             <Main6/>
             <Main7/>
+            <Main8/>
+            <Footer/>
         </div>
     )
 }
